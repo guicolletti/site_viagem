@@ -1,0 +1,89 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #010173;
+    color: #fff;
+    flex-wrap: nowrap;
+}
+
+.cabecalho img {
+    width: 5%;
+    padding: 10px;
+}
+
+.cabecalho h1 {
+    color: white;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.imagem {
+    width: 40%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    width: 55%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 5px;
+}
+
+.botao-voltar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #010173;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.botao-voltar:hover {
+    background-color: #0044cc;
+    border-radius: 5px;
+}
+
+.rodape {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px 0 10px 0;
+}
+
+.rodape p {
+    padding: 0 0 0 20px;
+    color: #010173;
+    text-decoration: none;
+}
